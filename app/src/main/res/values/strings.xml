@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="nome_app">Nome App</string>
+    <string name="conta">Conta</string>
+    <string name="eventos">Eventos</string>
+    <string name="desc_evento">Lorem ipsum dolor sit amet</string>
+    <string name="nome_do_evento">Nome do Evento</string>
+    <string name="desc_evento_completa">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet ligula erat, eget vulputate enim lobortis in. Duis vehicula mollis tellus, ac commodo leo consectetur ut. Morbi ac dapibus ipsum. Aliquam varius ex lorem, ut aliquet metus fringilla sed. Duis vitae cursus nibh. Aenean porttitor massa sit amet ante dapibus, non scelerisque urna viverra. Praesent vel gravida est.</string>
+    <string name="login">Login</string>
+    <string name="cadastrar_usuario">Não possui uma conta? Cadastre-se</string>
+    <string name="cadastrar_seus_dados">CADASTRAR SEUS DADOS</string>
+    <string name="botao_cadastrar_usuario">CADASTRAR</string>
+    <string name="texto_minha_conta">MINHA CONTA</string>
+    <string name="meus_dados">MEUS DADOS</string>
+    <string name="nome_usuario">NOME</string>
+    <string name="email_usuario">EMAIL</string>
+    <string name="telefone_usuario">TELEFONE</string>
+    <string name="cidade_usuario">CIDADE</string>
+    <string name="meus_eventos">MEUS EVENTOS</string>
+    <string name="botao_cadastrar_evento">CADASTRAR EVENTO</string>
+    <string name="descricao_meu_evento">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed varius quam.</string>
+    <string name="botao_logar">LOGAR</string>
+    <string name="hint_senha">SENHA</string>
+    <string name="hint_usuario">USUÁRIO</string>
+    <string name="cadastrar_cidade_evento">CIDADE</string>
+    <string name="cadastrar_desc_evento">DESCRIÇÃO DO EVENTO</string>
+    <string name="cadastrar_nome_evento">NOME DO EVENTO</string>
+    <string name="cadastrar_imagem_evento">IMAGEM</string>
+    <string name="cadastrar_nome_usuario">NOME</string>
+    <string name="cadastrar_email_usuario">EMAIL</string>
+    <string name="cadastrar_tel_usuario">TELEFONE</string>
+    <string name="cadastrar_senha_usuario">SENHA</string>
+    <string name="cadastrar_cidade_usuario">CIDADE</string>
+</resources>

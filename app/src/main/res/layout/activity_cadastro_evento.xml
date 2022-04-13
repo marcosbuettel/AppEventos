@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#434343"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CADASTRAR EVENTO"
+        android:textSize="26sp"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/cadastrar_imagem_evento"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/cadastrar_nome_evento"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/cadastrar_desc_evento"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/cadastrar_cidade_evento"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/botao_cadastrar_usuario"
+        android:id="@+id/cadastrarNovoEvento"
+        android:textSize="26dp"
+        android:backgroundTint="#03A9F4"
+        />
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    android:background="#434343"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome_do_evento"
+        android:textSize="34sp"
+        android:id="@+id/nomeEvento"
+        android:textColor="@color/white"
+        />
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:src="@drawable/image"
+        android:layout_below="@id/nomeEvento"
+        android:id="@+id/imagemEvento"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagemEvento"
+        android:text="@string/desc_evento_completa"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        />
+
+
+</RelativeLayout>
