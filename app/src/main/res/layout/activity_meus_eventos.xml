@@ -52,6 +52,16 @@
             android:text="@string/descricao_meu_evento"
             android:textSize="24sp"
             android:textColor="@color/white"
+            android:id="@+id/nomeEventoUsuario"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descricao_meu_evento"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:id="@+id/descEventoUsuario"
             />
 
     </LinearLayout>

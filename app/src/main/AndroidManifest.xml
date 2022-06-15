@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".teste_constraint"
+            android:exported="false" />
+        <activity
+            android:name=".MeusEventosViewModel"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityViewModel"
+            android:exported="false" />
+        <activity
+            android:name=".TelaLoginViewModel"
+            android:exported="false" />
+        <activity
             android:name=".CadastroEvento"
             android:exported="false" />
         <activity

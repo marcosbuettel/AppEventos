@@ -1,102 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp"
+    android:padding="12dp"
     tools:context=".MainActivity"
     android:background="#434343"
     >
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:id="@+id/header"
-        >
+        android:text="@string/nome_app"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/nomeApp"
+        app:layout_constraintEnd_toStartOf="@+id/botaoConta"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        android:layout_marginTop="8dp"
+        />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/nome_app"
-            android:textSize="24sp"
-            android:layout_weight="1"
-            android:textColor="@color/white"
-            />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/conta"
-            android:textSize="24sp"
-            android:layout_weight="1"
-            android:id="@+id/minhaConta"
-            android:backgroundTint="#03A9F4"
-            />
-
-    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/conta"
+        android:textSize="18sp"
+        android:backgroundTint="#03A9F4"
+        android:id="@+id/botaoConta"
+        app:layout_constraintStart_toEndOf="@+id/nomeApp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/eventos"
+        android:layout_marginTop="28dp"
         android:textSize="24sp"
-        android:layout_marginTop="30dp"
-        android:layout_below="@id/header"
-        android:id="@+id/eventos"
         android:textColor="@color/white"
+        android:id="@+id/textoEventos"
+        app:layout_constraintTop_toBottomOf="@+id/nomeApp"
+        app:layout_constraintStart_toStartOf="parent"
         />
 
-    <LinearLayout
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="22dp"
+        android:src="@drawable/image"
+        app:layout_constraintTop_toBottomOf="@+id/textoEventos"
+        android:id="@+id/imgEvento1"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/eventos"
-        android:orientation="vertical"
-        android:id="@+id/evento1"
-        android:layout_marginTop="20dp"
-        >
+        android:text="@string/desc_evento"
+        app:layout_constraintTop_toBottomOf="@+id/imgEvento1"
+        android:id="@+id/nomeEvento1"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        />
 
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/image"
-            android:id="@+id/imgEvento1"
-            />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/desc_evento"
-            android:textSize="20sp"
-            android:textColor="@color/white"
-            />
-
-    </LinearLayout>
-
-    <LinearLayout
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/evento1"
-        android:id="@+id/evento2"
-        android:orientation="vertical"
-        android:layout_marginTop="40dp"
-        >
+        android:text="@string/desc_evento"
+        app:layout_constraintTop_toBottomOf="@+id/nomeEvento1"
+        android:id="@+id/descEvento1"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        />
 
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/image"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="22dp"
+        android:src="@drawable/image"
+        app:layout_constraintTop_toBottomOf="@+id/descEvento1"
+        android:id="@+id/imgEvento2"
+        app:layout_constraintStart_toStartOf="parent"
+        />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/desc_evento"
-            android:textSize="20sp"
-            android:textColor="@color/white"
-            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/desc_evento"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/imgEvento2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/nomeEvento2"
+        />
 
-    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/desc_evento"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/nomeEvento2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/descEvento2"
+        />
 
-
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

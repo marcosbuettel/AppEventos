@@ -10,6 +10,7 @@
         <entry key="..\:/Users/MarcosSSD/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_minha_conta.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/MarcosSSD/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_tela_evento.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/MarcosSSD/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_tela_login.xml" value="0.264" />
+        <entry key="..\:/Users/MarcosSSD/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_teste_constraint.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/MarcosSSD/AndroidStudioProjects/MyApplication/app/src/main/res/layout/pagina_evento.xml" value="0.2" />
         <entry key="..\:/Users/MarcosSSD/AndroidStudioProjects/MyApplication/app/src/main/res/layout/revisao_prova.xml" value="0.264" />
         <entry key="..\:/Users/MarcosSSD/AndroidStudioProjects/MyApplication/app/src/main/res/layout/tela_cadastro_usuario.xml" value="0.25416666666666665" />
@@ -18,6 +19,9 @@
         <entry key="..\:/Users/MarcosSSD/AndroidStudioProjects/MyApplication/app/src/main/res/layout/tela_minha_conta.xml" value="0.264" />
       </map>
     </option>
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_teste_constraint.xml" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
